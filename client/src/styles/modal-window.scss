@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.modal-window {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $white;
+        // min-width: 200px;
+        // min-height: 100px;
+    }
+    
+    &__item {
+        margin: 10px 20px 5px 10px;
+        &:last-child {
+            margin: 10px 20px 15px 10px;
+        }
+    }
+}
